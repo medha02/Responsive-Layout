@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,200;1,400&display=swap');
+
+h1 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: orange;
+    color: white;
+    font-weight: lighter;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 20px;
+
+
+
+
+
+
+}
+
+#main article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    justify-content: space-between;
+    background-color: dimgrey;
+    height: 300px;
+    width: 3000px;
+
+}
+
+#main.div,
+.nav-bar,
+.aside-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: fle;
+    text-align: start;
+    padding: 50px;
+    justify-content: space-around;
+    background-color: darkolivegreen;
+    height: 290px;
+    width: 300px;
+}
+
+footer {
+    display: flex;
+    justify-items: space-around;
+    justify-content: left;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    font-weight: lighter;
+    align-items: flex-end;
+    padding: 20px;
+
+}
